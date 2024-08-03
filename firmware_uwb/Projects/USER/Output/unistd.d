@@ -1,0 +1,10 @@
+.\output\unistd.o: ..\..\Components\HAL\DW\sys\unistd.c
+.\output\unistd.o: ../../Components/HAL/DW/compiler/compiler.h
+.\output\unistd.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\unistd.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\unistd.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\unistd.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\output\unistd.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\output\unistd.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\output\unistd.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+.\output\unistd.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
