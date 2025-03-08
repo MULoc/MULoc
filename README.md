@@ -14,21 +14,21 @@ This repository contains three main components:
 2. **ESP32 Firmware Code**
 3. **MATLAB Algorithm Code**
 
-### UWB Firmware Code
+### 1. UWB Firmware Code
 
 A **Keil uVision** project that includes firmware code for MULoc Anchors and Tags. Compiled `.hex` files are also provided directly in the root directory.
 
-### ESP32-S3 Firmware Code
+### 2. ESP32-S3 Firmware Code
 
 An **ESP32-S3** project designed to forward data output by UWB tags to a PC via a WiFi connection. It requires the ESP toolchain for compilation. Compiled `.bin` files are also provided directly in the root directory.
 
-### MATLAB Code
+### 3. MATLAB Code
 
 Signal processing algorithms written in MATLAB.
 
 ## Usage
 
-### Compilation of UWB Firmware Code
+### 1. Compilation of UWB Firmware Code
 
 To compile this project, your environment must have the following installed:
 
@@ -45,7 +45,7 @@ The compiled binary files can be directly run on Jiulin X1 UWB modules. The most
 
 These files describe the MULoc anchor scheduling process. If you want to port MULoc to your own UWB module, you only need to modify these three files and integrate them into your project.
 
-### Data Collection
+### 2. Data Collection
 
 #### Using ESP32-S3
 
@@ -72,6 +72,6 @@ For each data collection, you will get multiple files:
 - `data_tag.txt`: Tag overhearing data
 - `data_anchor_i.txt`: Anchor overhearing data for Anchor i
 
-### Signal Processing
+### 3. Signal Processing
 
 We provide two sample datasets in the `./matlab/sample_data` directory. You can calculate the UWB tag positions by running `data_analyse.m` in MATLAB.
