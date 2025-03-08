@@ -4,7 +4,7 @@
 
 Thanks for your interest in MULoc. This repository contains source code and sample datasets of the paper "MULoc: Towards Millimeter-Accurate Localization for Unlimited UWB Tags via Anchor Overhearing" (accepted by IEEE INFOCOM 2025).
 
-**Abstract: **Recent years have seen rapid advancements in ultra-wideband (UWB)-based localization systems. However, most existing solutions offer only centimeter-level accuracy and support a limited number of UWB tags, which fails to meet the growing demands of emerging sensing applications (e.g., virtual reality). This paper presents MULoc, the first system that can localize an unlimited number of UWB tags with millimeter-level accuracy. At the core of MULoc is the innovative use of UWB phase, which can provide finer-grained distance measurement than traditional time-of-flight (ToF) estimates. To accurately obtain phase estimates from unsynchronized devices, we introduce a novel localization scheme called anchor overhearing (AO) and eliminate raw signal errors through a signal-difference-based technique. For precise tag localization, we resolve phase ambiguity by combining a fusion-based filtering method and frequency hopping. We implement MULoc on commercial UWB modules. Extensive experiments demonstrate that our system achieves a median localization error of 0.47 mm and 90-th percentile error of 1.02 cm, reducing the error of traditional method by 91.12%.
+**Abstract**: Recent years have seen rapid advancements in ultra-wideband (UWB)-based localization systems. However, most existing solutions offer only centimeter-level accuracy and support a limited number of UWB tags, which fails to meet the growing demands of emerging sensing applications (e.g., virtual reality). This paper presents MULoc, the first system that can localize an unlimited number of UWB tags with millimeter-level accuracy. At the core of MULoc is the innovative use of UWB phase, which can provide finer-grained distance measurement than traditional time-of-flight (ToF) estimates. To accurately obtain phase estimates from unsynchronized devices, we introduce a novel localization scheme called anchor overhearing (AO) and eliminate raw signal errors through a signal-difference-based technique. For precise tag localization, we resolve phase ambiguity by combining a fusion-based filtering method and frequency hopping. We implement MULoc on commercial UWB modules. Extensive experiments demonstrate that our system achieves a median localization error of 0.47 mm and 90-th percentile error of 1.02 cm, reducing the error of traditional method by 91.12%.
 
 ## Introduction
 
@@ -26,8 +26,6 @@ An **ESP32-S3** project designed to forward data output by UWB tags to a PC via 
 
 Signal processing algorithms written in MATLAB.
 
-------
-
 ## Usage
 
 ### Compilation of UWB Firmware Code
@@ -46,8 +44,6 @@ The compiled binary files can be directly run on Jiulin X1 UWB modules. The most
 - `bphere_uwb.h`
 
 These files describe the MULoc anchor scheduling process. If you want to port MULoc to your own UWB module, you only need to modify these three files and integrate them into your project.
-
-------
 
 ### Data Collection
 
@@ -75,8 +71,6 @@ For each data collection, you will get multiple files:
 - `data_str.txt`: Raw data parsed into string format
 - `data_tag.txt`: Tag overhearing data
 - `data_anchor_i.txt`: Anchor overhearing data for Anchor i
-
-------
 
 ### Signal Processing
 
