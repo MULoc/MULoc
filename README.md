@@ -16,11 +16,11 @@ This repository contains three main components:
 
 ### 1. UWB Firmware Code
 
-A **Keil uVision** project that includes firmware code for MULoc Anchors and Tags. Compiled `.hex` files are also provided directly in the root directory.
+A Keil uVision project that includes firmware code for MULoc Anchors and Tags. 
 
 ### 2. ESP32-S3 Firmware Code
 
-An **ESP32-S3** project designed to forward data output by UWB tags to a PC via a WiFi connection. It requires the ESP toolchain for compilation. Compiled `.bin` files are also provided directly in the root directory.
+An ESP32-S3 project designed to forward data output by UWB tags to a PC via a WiFi connection. It requires the ESP toolchain for compilation. 
 
 ### 3. MATLAB Code
 
