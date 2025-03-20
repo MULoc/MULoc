@@ -75,3 +75,17 @@ For each data collection, you will get multiple files:
 ### 3. Signal Processing
 
 We provide two sample datasets in the `./matlab/sample_data` directory. You can calculate the UWB tag positions by running `data_analyse.m` in MATLAB.
+
+## Citation
+
+```latex
+@inproceedings{ma2025muloc,
+  title={MULoc: Towards Millimeter-Accurate Localization for Unlimited UWB Tags via Anchor Overhearing},
+  author={Ma, Junqi and Zhang, Fusang and Jin, Beihong and Li, Siheng and Wang, Zhi},
+  booktitle={IEEE INFOCOM 2025-IEEE Conference on Computer Communications},
+  year={2025},
+  organization={IEEE}
+}
+```
+
+
