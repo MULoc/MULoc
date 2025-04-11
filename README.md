@@ -49,7 +49,7 @@ These files describe the MULoc anchor scheduling process. If you want to port MU
 
 #### Using ESP32-S3
 
-1. Connect the ESP32-S3 and your PC to the same LAN.
+1. Connect the ESP32-S3 and your PC to the same WLAN.
 2. Configure the PC's IP address and UDP port in the ESP32-S3 firmware.
 3. Collect UWB raw data by setting up a UDP server on the PC:
 
