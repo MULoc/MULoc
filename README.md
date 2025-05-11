@@ -70,7 +70,7 @@ For each data collection, you will get multiple files:
 - `data.txt`: Raw data in byte format
 - `data_str.txt`: Raw data parsed into string format
 - `data_tag.txt`: Tag overhearing data
-- `data_anchor_i.txt`: Anchor overhearing data for Anchor i
+- `data_anchor_i.txt`: Anchor overhearing data extracted from Anchor i
 
 ### 3. Signal Processing
 
