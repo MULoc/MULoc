@@ -115,7 +115,7 @@ void dw_init(void)
 	dwt_setaddress16(1);
 
 	// Configure the TX and RX antenna delay
-	dwt_setrxaftertxdelay(RX_ANT_DLY);
+	dwt_setrxantennadelay(RX_ANT_DLY);
 	dwt_settxantennadelay(TX_ANT_DLY);
 }
 
