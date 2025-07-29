@@ -7,6 +7,7 @@ Thanks for your interest in MULoc. This repository contains source code and samp
 **Abstract**: Recent years have seen rapid advancements in ultra-wideband (UWB)-based localization systems. However, most existing solutions offer only centimeter-level accuracy and support a limited number of UWB tags, which fails to meet the growing demands of emerging sensing applications (e.g., virtual reality). This paper presents MULoc, the first system that can localize an unlimited number of UWB tags with millimeter-level accuracy. At the core of MULoc is the innovative use of UWB phase, which can provide finer-grained distance measurement than traditional time-of-flight (ToF) estimates. To accurately obtain phase estimates from unsynchronized devices, we introduce a novel localization scheme called anchor overhearing (AO) and eliminate raw signal errors through a signal-difference-based technique. For precise tag localization, we resolve phase ambiguity by combining a fusion-based filtering method and frequency hopping. We implement MULoc on commercial UWB modules. Extensive experiments demonstrate that our system achieves a median localization error of 0.47 cm and 90-th percentile error of 1.02 cm, reducing the error of traditional method by 91.12%.
 
 📌 Erratum - 2025/7/29
+
 We would like to clarify a typo in the abstract of our published paper:
 
 "MULoc achieves a median localization accuracy of 0.47 mm..."
