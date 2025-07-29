@@ -10,11 +10,11 @@ Thanks for your interest in MULoc. This repository contains source code and samp
 
 We would like to clarify a typo in the abstract of our published paper:
 
-"MULoc achieves a median localization accuracy of 0.47 mm..."
+"MULoc achieves a median localization accuracy of ~~0.47 mm~~..."
 
-This is incorrect. The correct statement should be:
+The correct statement should be:
 
-"MULoc achieves a median localization accuracy of **0.47 cm**..."
+"MULoc achieves a median localization accuracy of _**0.47 cm**_..."
 
 ## Introduction
 
